@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score,confusion_matrix
-df = pd.read_csv("C:/Users/kamini/Downloads/machine learning/mobile_prices.csv")
+df = pd.read_csv("C:/Users/pothu/Downloads/machine learning/mobile_prices.csv")
 selected_features = ['battery_power', 'ram', 'n_cores', 'px_height']
 X = df[selected_features]
 y = df['price_range']
